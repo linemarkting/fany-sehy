@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <!-- Google tag (gtag.js) - placeholder for conversion tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18186488307"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18186488307');
+    </script>
+
+    <!-- Event snippet for conversion tracking -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-18186488307/6yZxCJna594cEPOT_99D',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Call and WhatsApp tracking functions -->
+    <script>
+    function makePhoneCall(phoneNumber) {
+      var cleanNumber = String(phoneNumber).replace(/[\s\-]/g, '');
+      if (!cleanNumber.startsWith('+') && !cleanNumber.startsWith('00')) {
+        if (cleanNumber.startsWith('965')) {
+          cleanNumber = '+' + cleanNumber;
+        } else {
+          cleanNumber = '+965' + cleanNumber;
+        }
+      }
+      var telUrl = 'tel:' + cleanNumber;
+      
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(telUrl);
+      }
+      
+      setTimeout(function() {
+        window.location.href = telUrl;
+      }, 150);
+      
+      return false;
+    }
+
+    function trackWhatsAppClick(url) {
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(url);
+      }
+      setTimeout(function() {
+        window.open(url, '_blank');
+      }, 150);
+      return false;
+    }
+    </script>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HomeAndConstructionBusiness",
+        "name": "فني صحي وترميمات عامة - تكسير حمامات ومطابخ",
+        "description": "فني صحي متخصص في الترميمات العامة، تكسير الحمامات والمطابخ، تكسير كور، فتح أبواب ودرايش، تكسير سيراميك وأرضيات في الكويت",
+        "telephone": "+96567632110",
+        "areaServed": "Kuwait",
+        "serviceType": "فني صحي, ترميمات عامة, تكسير حمامات, تكسير مطابخ, تكسير كور, فتح أبواب, فتح درايش, تكسير سيراميك, تكسير أرضيات",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Kuwait"
+        },
+        "openingHours": "Mo-Su 00:00-23:59"
+    }
+    </script>
+
+    <title>فني صحي وترميمات عامة - تكسير حمامات ومطابخ | 67632110</title>
+    <meta name="description" content="✅ فني صحي - ترميمات عامة - تكسير حمامات ومطابخ - تكسير كور - فتح أبواب ودرايش - تكسير سيراميك وأرضيات في الكويت. اتصل 67632110">
+    <meta name="keywords" content="فني صحي, ترميمات عامة, تكسير حمامات, تكسير مطابخ, تكسير كور, فتح أبواب, فتح درايش, تكسير سيراميك, تكسير أرضيات, صحي الكويت, ترميم الكويت">
+    <meta name="location" content="Kuwait">
+
+    <!-- Fonts & Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* ===== NEW COLOR PALETTE: Professional Teal & Copper ===== */
+        :root {
+            --primary-dark: #0f2b3d;
+            --deep-teal: #1a4a5e;
+            --mid-teal: #2c6e7e;
+            --soft-teal: #3d8e9e;
+            --accent-copper: #c97b2e;
+            --light-copper: #e9a85c;
+            --clean-white: #f9fbfc;
+            --off-white: #eef4f6;
+            --light-bg: #e4edf0;
+            --card-bg: #ffffff;
+            --text-dark: #0f2b3d;
+            --text-muted: #3e5a68;
+            --call-green: #1e7a4c;
+            --whatsapp-green: #25D366;
+            --shadow-light: 0 4px 20px rgba(15, 43, 61, 0.08);
+            --shadow-hover: 0 12px 40px rgba(15, 43, 61, 0.14);
+            --border-light: #d0dee4;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+        
+        body {
+            background: var(--off-white);
+            color: var(--text-dark);
+            line-height: 1.7;
+        }
+        
+        .scrolling-banner {
+            background: var(--primary-dark);
+            color: var(--light-copper);
+            padding: 12px 0;
+            overflow: hidden;
+            font-weight: 900;
+            font-size: 1rem;
+            border-bottom: 3px solid var(--accent-copper);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            letter-spacing: 0.5px;
+        }
+        
+        .scrolling-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 22s linear infinite;
+            padding-left: 100%;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        .navbar {
+            background: var(--clean-white);
+            padding: 0.8rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            border-bottom: 3px solid var(--accent-copper);
+        }
+        
+        .logo {
+            font-size: 1.3rem;
+            color: var(--primary-dark);
+            font-weight: 900;
+            background: var(--light-bg);
+            padding: 0.3rem 1.2rem;
+            border-radius: 50px;
+            border: 1px solid var(--border-light);
+        }
+        
+        .logo i {
+            color: var(--accent-copper);
+        }
+        
+        .phone-display {
+            background: var(--call-green);
+            color: white;
+            font-weight: 900;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            padding: 0.6rem 1.8rem;
+            border-radius: 60px;
+            box-shadow: 0 4px 15px rgba(30, 122, 76, 0.3);
+            border: none;
+        }
+        
+        .phone-display:hover {
+            transform: scale(1.05);
+            background: var(--whatsapp-green);
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.4);
+        }
+        
+        .hero {
+            background: linear-gradient(145deg, #ffffff, #eef4f6);
+            color: var(--text-dark);
+            padding: 5rem 2rem 7rem;
+            text-align: center;
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 6px solid var(--accent-copper);
+        }
+        
+        .hero::before {
+            content: "🛠️ 🚿 🔧 🧱 🚪";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            font-size: 8rem;
+            opacity: 0.04;
+            white-space: nowrap;
+            pointer-events: none;
+            animation: floatIcons 35s linear infinite;
+        }
+        
+        @keyframes floatIcons {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 50%, rgba(201, 123, 46, 0.05), transparent 70%);
+        }
+        
+        .hero h1, .hero p, .hero-buttons, .hours-badge {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1.8rem;
+            font-weight: 900;
+            color: var(--primary-dark);
+            animation: fadeInUp 0.8s ease;
+        }
+        
+        .hero h1 span {
+            color: var(--accent-copper);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            animation: fadeInUp 1s ease;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 2.5rem;
+            animation: fadeInUp 1.2s ease;
+        }
+        
+        .hero-btn {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.2rem 3rem;
+            border-radius: 80px;
+            color: white;
+            text-decoration: none;
+            font-weight: 900;
+            transition: all 0.3s;
+            font-size: 1.4rem;
+            border: none;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+        }
+        
+        .hero-btn:hover {
+            transform: translateY(-6px) scale(1.02);
+        }
+        
+        .secondary-btn {
+            background: var(--call-green);
+            box-shadow: 0 6px 25px rgba(30, 122, 76, 0.35);
+        }
+        
+        .secondary-btn:hover {
+            background: #15683d;
+            box-shadow: 0 10px 40px rgba(30, 122, 76, 0.5);
+        }
+        
+        .whatsapp-btn {
+            background: var(--whatsapp-green);
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.35);
+        }
+        
+        .whatsapp-btn:hover {
+            background: #1da851;
+            box-shadow: 0 10px 40px rgba(37, 211, 102, 0.5);
+        }
+        
+        .hours-badge {
+            background: var(--primary-dark);
+            color: var(--light-copper);
+            padding: 0.8rem 2rem;
+            border-radius: 60px;
+            font-weight: 900;
+            display: inline-block;
+            margin-bottom: 2rem;
+            border: 1px solid var(--accent-copper);
+            font-size: 1.1rem;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+        }
+        
+        .services {
+            padding: 5rem 2rem;
+            background: var(--clean-white);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary-dark);
+            font-size: 2.5rem;
+            font-weight: 900;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, var(--accent-copper), transparent);
+            margin: 0.8rem auto 0;
+            border-radius: 10px;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .service-card {
+            background: var(--card-bg);
+            padding: 2.5rem 2rem;
+            border-radius: 28px;
+            box-shadow: var(--shadow-light);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border-bottom: 4px solid var(--accent-copper);
+            border-left: 1px solid var(--border-light);
+            border-right: 1px solid var(--border-light);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-12px);
+            box-shadow: var(--shadow-hover);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            color: var(--accent-copper);
+            margin-bottom: 1rem;
+            display: inline-block;
+            background: var(--light-bg);
+            padding: 1rem;
+            border-radius: 20px;
+            border: 1px solid var(--border-light);
+        }
+        
+        .service-card h3 {
+            color: var(--primary-dark);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+        
+        .service-list {
+            padding-right: 20px;
+            line-height: 2.2;
+            font-size: 1rem;
+            color: var(--text-muted);
+            list-style: none;
+        }
+        
+        .service-list li {
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-right: 30px;
+        }
+        
+        .service-list li::before {
+            content: "✦";
+            color: var(--accent-copper);
+            font-weight: bold;
+            position: absolute;
+            right: 0;
+        }
+        
+        .types-section {
+            padding: 5rem 2rem;
+            background: var(--off-white);
+        }
+        
+        .types-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 1.8rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .type-item {
+            background: var(--card-bg);
+            padding: 2rem 1.5rem;
+            border-radius: 24px;
+            text-align: center;
+            box-shadow: var(--shadow-light);
+            transition: all 0.3s;
+            border-bottom: 3px solid var(--accent-copper);
+            border-left: 1px solid var(--border-light);
+            border-right: 1px solid var(--border-light);
+        }
+        
+        .type-item:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+        }
+        
+        .type-item h3 {
+            color: var(--primary-dark);
+            font-weight: 900;
+            font-size: 1.1rem;
+        }
+        
+        .type-item p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 0.4rem;
+        }
+        
+        .why-us {
+            padding: 5rem 2rem;
+            background: var(--clean-white);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 3rem auto 0;
+        }
+        
+        .feature-item {
+            text-align: center;
+            padding: 2.5rem 1.5rem;
+            background: var(--card-bg);
+            border-radius: 30px;
+            transition: all 0.3s;
+            box-shadow: var(--shadow-light);
+            border: 1px solid var(--border-light);
+        }
+        
+        .feature-item:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--accent-copper);
+        }
+        
+        .feature-icon {
+            font-size: 2.8rem;
+            color: var(--accent-copper);
+            margin-bottom: 1rem;
+            display: inline-block;
+            background: var(--light-bg);
+            padding: 0.8rem;
+            border-radius: 20px;
+        }
+        
+        .feature-item h3 {
+            color: var(--primary-dark);
+            margin-bottom: 0.5rem;
+        }
+        
+        .feature-item p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        
+        .packages {
+            padding: 5rem 2rem;
+            background: var(--off-white);
+        }
+        
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .package-card {
+            background: var(--card-bg);
+            padding: 2.8rem 2rem;
+            border-radius: 30px;
+            box-shadow: var(--shadow-light);
+            text-align: center;
+            transition: all 0.4s;
+            border-top: 6px solid var(--accent-copper);
+            border-left: 1px solid var(--border-light);
+            border-right: 1px solid var(--border-light);
+        }
+        
+        .package-card:hover {
+            transform: translateY(-12px);
+            box-shadow: var(--shadow-hover);
+        }
+        
+        .package-title {
+            font-size: 1.5rem;
+            color: var(--primary-dark);
+            margin-bottom: 1rem;
+            font-weight: 900;
+        }
+        
+        .package-price {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+        
+        .package-features {
+            list-style: none;
+            padding: 0;
+            text-align: right;
+            margin: 1.5rem 0;
+            color: var(--text-muted);
+            line-height: 2.2;
+        }
+        
+        .package-features li::before {
+            content: "✦ ";
+            color: var(--accent-copper);
+        }
+        
+        .package-btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--call-green);
+            color: white;
+            text-decoration: none;
+            border-radius: 60px;
+            font-weight: 900;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 20px rgba(30, 122, 76, 0.3);
+            font-size: 1.1rem;
+        }
+        
+        .package-btn:hover {
+            background: #15683d;
+            transform: scale(1.05);
+            box-shadow: 0 8px 35px rgba(30, 122, 76, 0.4);
+        }
+        
+        .testimonials {
+            padding: 5rem 2rem;
+            background: var(--clean-white);
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-card {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 28px;
+            box-shadow: var(--shadow-light);
+            transition: transform 0.3s;
+            border-right: 4px solid var(--accent-copper);
+            border-left: 1px solid var(--border-light);
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+        }
+        
+        .testimonial-text {
+            color: var(--text-dark);
+            font-size: 1.05rem;
+        }
+        
+        .testimonial-author {
+            color: var(--accent-copper);
+            font-weight: 700;
+            margin-top: 1rem;
+        }
+        
+        .contact-form {
+            padding: 5rem 2rem;
+            background: var(--off-white);
+        }
+        
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 35px;
+            box-shadow: var(--shadow-light);
+            border: 1px solid var(--border-light);
+        }
+        
+        .form-group {
+            margin-bottom: 1.8rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--primary-dark);
+            font-weight: 600;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem 1.2rem;
+            border-radius: 25px;
+            border: 1px solid var(--border-light);
+            background: var(--clean-white);
+            color: var(--text-dark);
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent-copper);
+            box-shadow: 0 0 20px rgba(201, 123, 46, 0.1);
+        }
+        
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            background: var(--call-green);
+            color: white;
+            border: none;
+            padding: 1.2rem 2rem;
+            border-radius: 80px;
+            font-weight: 900;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 20px rgba(30, 122, 76, 0.3);
+        }
+        
+        .submit-btn:hover {
+            background: #15683d;
+            transform: scale(1.02);
+            box-shadow: 0 8px 35px rgba(30, 122, 76, 0.4);
+        }
+        
+        .contact-info {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 30px;
+            text-align: center;
+            margin-top: 2.5rem;
+            border: 2px solid var(--accent-copper);
+            box-shadow: var(--shadow-light);
+        }
+        
+        .contact-info i {
+            color: var(--accent-copper);
+            margin-left: 0.5rem;
+        }
+        
+        .contact-info strong {
+            color: var(--primary-dark);
+        }
+        
+        .search-tags {
+            padding: 3rem 2rem;
+            background: var(--clean-white);
+        }
+        
+        .search-tags h3 {
+            color: var(--primary-dark);
+            font-weight: 900;
+            margin-bottom: 2rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+        
+        .service-tag {
+            background: var(--light-bg);
+            color: var(--text-dark);
+            font-weight: bold;
+            border: 1px solid var(--border-light);
+            padding: 0.5rem 1.2rem;
+            border-radius: 60px;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        
+        .service-tag:hover {
+            transform: scale(1.04);
+            background: var(--accent-copper);
+            color: white;
+            border-color: var(--accent-copper);
+            box-shadow: 0 4px 15px rgba(201, 123, 46, 0.25);
+        }
+        
+        .floating-btns {
+            position: fixed;
+            bottom: 2.5rem;
+            right: 2rem;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            gap: 1rem;
+        }
+        
+        .floating-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1rem 2rem;
+            border-radius: 80px;
+            color: white;
+            background: var(--call-green);
+            text-decoration: none;
+            font-weight: 900;
+            box-shadow: 0 6px 25px rgba(30, 122, 76, 0.35);
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+        
+        .floating-btn:hover {
+            transform: scale(1.08);
+            box-shadow: 0 10px 40px rgba(30, 122, 76, 0.5);
+        }
+        
+        .floating-whatsapp {
+            background: var(--whatsapp-green);
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.35);
+        }
+        
+        .floating-whatsapp:hover {
+            background: #1da851;
+            box-shadow: 0 10px 40px rgba(37, 211, 102, 0.5);
+        }
+        
+        .simple-footer {
+            background: var(--primary-dark);
+            color: #b0c8d0;
+            border-top: 4px solid var(--accent-copper);
+            padding: 2.5rem 2rem;
+            text-align: center;
+        }
+        
+        .footer-phone {
+            font-weight: 900;
+            font-size: 1.6rem;
+            cursor: pointer;
+            margin: 1rem 0;
+            transition: transform 0.2s;
+            display: inline-block;
+            background: var(--call-green);
+            color: white;
+            padding: 0.5rem 2rem;
+            border-radius: 60px;
+            box-shadow: 0 4px 20px rgba(30, 122, 76, 0.3);
+        }
+        
+        .footer-phone:hover {
+            transform: scale(1.06);
+            background: var(--whatsapp-green);
+            box-shadow: 0 8px 35px rgba(37, 211, 102, 0.4);
+        }
+        
+        .simple-footer p:last-child {
+            color: #7a9aa8;
+            font-size: 0.9rem;
+            margin-top: 1.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .section-title {
+                font-size: 1.8rem;
+            }
+            .navbar {
+                padding: 0.6rem 1rem;
+            }
+            .logo {
+                font-size: 0.95rem;
+                padding: 0.2rem 0.8rem;
+            }
+            .phone-display {
+                font-size: 0.9rem;
+                padding: 0.4rem 1rem;
+            }
+            .hero-btn {
+                font-size: 1.1rem;
+                padding: 1rem 2rem;
+            }
+            .floating-btns {
+                right: 1rem;
+                bottom: 1.5rem;
+            }
+            .floating-btn {
+                padding: 0.8rem 1.4rem;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scrolling-banner">
+        <div class="scrolling-content">
+            🔧 فني صحي - ترميمات عامة - تكسير حمامات ومطابخ - تكسير كور - فتح أبواب ودرايش - تكسير سيراميك وأرضيات - اتصل الآن: 67632110 🔧
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo"><i class="fas fa-tools"></i> فني صحي - ترميمات وتكسير</div>
+        <div class="phone-display" onclick="makePhoneCall('67632110')">
+            <i class="fas fa-phone-alt"></i> 67632110
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hours-badge">
+            <i class="fas fa-clock"></i> خدمة 24 ساعة | فني صحي - ترميمات - تكسير حمامات - مطابخ - كور - فتح أبواب ودرايش
+        </div>
+        <h1>🛠️ <span>فني صحي وترميمات عامة</span> - تكسير حمامات ومطابخ</h1>
+        <p>✅ فني صحي متخصص - ترميمات عامة - جميع أعمال التكسير - تكسير حمامات ومطابخ - تكسير كور - فتح أبواب ودرايش - تكسير سيراميك وأرضيات - نغطي جميع مناطق الكويت</p>
+        <div class="hero-buttons">
+            <button class="hero-btn secondary-btn" onclick="makePhoneCall('67632110')">
+                <i class="fas fa-phone-volume"></i>
+                اطلب استشارة مجانية
+            </button>
+            <button class="hero-btn whatsapp-btn" onclick="trackWhatsAppClick('https://wa.me/96567632110')">
+                <i class="fab fa-whatsapp"></i>
+                واتساب فوري
+            </button>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="section-title">خدماتنا الشاملة - فني صحي وترميمات</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-hammer service-icon"></i>
+                <h3>تكسير حمامات ومطابخ</h3>
+                <ul class="service-list">
+                    <li>تكسير حمامات كامل</li>
+                    <li>تكسير مطابخ وأرضيات</li>
+                    <li>تكسير سيراميك وبورسلان</li>
+                    <li>تكسير كور وفتح أبواب ودرايش</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-wrench service-icon"></i>
+                <h3>فني صحي - تمديدات</h3>
+                <ul class="service-list">
+                    <li>تمديدات صحية كاملة</li>
+                    <li>إصلاح تسريبات المياه</li>
+                    <li>تركيب وصيانة الأدوات الصحية</li>
+                    <li>تأسيس حمامات ومطابخ</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-hard-hat service-icon"></i>
+                <h3>ترميمات عامة</h3>
+                <ul class="service-list">
+                    <li>ترميم شامل للحمامات والمطابخ</li>
+                    <li>إعادة تأهيل بعد التكسير</li>
+                    <li>ترميم الجدران والأرضيات</li>
+                    <li>تشطيبات نهائية احترافية</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="types-section">
+        <h2 class="section-title">جميع أعمال التكسير والصحي</h2>
+        <div class="types-grid">
+            <div class="type-item"><h3><i class="fas fa-shower"></i> تكسير حمامات</h3><p>كامل أو جزئي</p></div>
+            <div class="type-item"><h3><i class="fas fa-utensils"></i> تكسير مطابخ</h3><p>أرضيات وجدران</p></div>
+            <div class="type-item"><h3><i class="fas fa-circle-notch"></i> تكسير كور</h3><p>فتح فتحات</p></div>
+            <div class="type-item"><h3><i class="fas fa-door-open"></i> فتح أبواب</h3><p>داخلية وخارجية</p></div>
+            <div class="type-item"><h3><i class="fas fa-border-all"></i> فتح درايش</h3><p>توسيع وإصلاح</p></div>
+            <div class="type-item"><h3><i class="fas fa-th-large"></i> تكسير سيراميك</h3><p>أرضيات وجدران</p></div>
+            <div class="type-item"><h3><i class="fas fa-vector-square"></i> تكسير أرضيات</h3><p>جميع الأنواع</p></div>
+            <div class="type-item"><h3><i class="fas fa-tint"></i> صحي</h3><p>تمديدات وإصلاح</p></div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <h2 class="section-title">لماذا تختارنا؟</h2>
+        <div class="features">
+            <div class="feature-item"><i class="fas fa-trophy feature-icon"></i><h3>خبرة وكفاءة</h3><p>سنوات من الخبرة في أعمال التكسير والترميم والصحي</p></div>
+            <div class="feature-item"><i class="fas fa-clock feature-icon"></i><h3>خدمة 24 ساعة</h3><p>فريق جاهز للاستجابة الفورية</p></div>
+            <div class="feature-item"><i class="fas fa-check-circle feature-icon"></i><h3>ضمان الجودة</h3><p>ضمان على جميع الأعمال المنفذة</p></div>
+            <div class="feature-item"><i class="fas fa-map-marked-alt feature-icon"></i><h3>تغطية الكويت</h3><p>جميع المناطق - حولي، السالمية، الفروانية، الجهراء، الأحمدي، العاصمة</p></div>
+        </div>
+    </section>
+
+    <section class="packages">
+        <h2 class="section-title">باقات خدماتنا</h2>
+        <div class="packages-grid">
+            <div class="package-card">
+                <h3 class="package-title">باقة تكسير حمامات ومطابخ</h3>
+                <div class="package-price">تكسير وترميم</div>
+                <ul class="package-features"><li>تكسير حمام كامل</li><li>تكسير مطبخ وأرضيات</li><li>فتح كور وأبواب ودرايش</li><li>ضمان على العمل</li></ul>
+                <button class="package-btn" onclick="makePhoneCall('67632110')">اطلب الخدمة</button>
+            </div>
+            <div class="package-card">
+                <h3 class="package-title">باقة فني صحي متكاملة</h3>
+                <div class="package-price">تمديدات وصيانة</div>
+                <ul class="package-features"><li>تمديدات صحية</li><li>إصلاح تسريبات</li><li>تركيب أدوات صحية</li><li>ضمان الجودة</li></ul>
+                <button class="package-btn" onclick="makePhoneCall('67632110')">اطلب الخدمة</button>
+            </div>
+            <div class="package-card">
+                <h3 class="package-title">باقة الترميمات العامة</h3>
+                <div class="package-price">ترميم شامل</div>
+                <ul class="package-features"><li>ترميم حمامات ومطابخ</li><li>إعادة تأهيل</li><li>تشطيبات نهائية</li><li>ضمان على العمل</li></ul>
+                <button class="package-btn" onclick="makePhoneCall('67632110')">اطلب الخدمة</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">آراء عملائنا</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card"><p class="testimonial-text">"قاموا بتكسير الحمام وترميمه بالكامل، عمل احترافي وسريع. شكراً لكم."</p><p class="testimonial-author">- أبو أحمد - حولي</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"فني صحي ممتاز، أصلح تسريب المياه وفتح باب جديد بدقة عالية. أنصح بالتعامل."</p><p class="testimonial-author">- أم محمد - السالمية</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"تكسير سيراميك وأرضيات بسرعة ونظافة، سعر مناسب. بارك الله فيكم."</p><p class="testimonial-author">- خالد - الفروانية</p></div>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+        <h2 class="section-title">اطلب استشارة مجانية - 67632110</h2>
+        <div class="form-container">
+            <form id="contactForm">
+                <div class="form-group"><label for="name">الاسم الكامل</label><input type="text" id="name" placeholder="أدخل اسمك" required></div>
+                <div class="form-group"><label for="phone">رقم الهاتف</label><input type="tel" id="phone" placeholder="مثال: 51234567" required></div>
+                <div class="form-group"><label for="area">المنطقة (حولي، السالمية، الفروانية، الجهراء، الأحمدي، العاصمة)</label><input type="text" id="area" placeholder="حدد منطقتك" required></div>
+                <div class="form-group"><label for="service">نوع الخدمة المطلوبة</label>
+                    <select id="service">
+                        <option>تكسير حمامات</option>
+                        <option>تكسير مطابخ</option>
+                        <option>تكسير كور</option>
+                        <option>فتح أبواب</option>
+                        <option>فتح درايش</option>
+                        <option>تكسير سيراميك</option>
+                        <option>تكسير أرضيات</option>
+                        <option>فني صحي</option>
+                        <option>ترميمات عامة</option>
+                    </select>
+                </div>
+                <div class="form-group"><label for="message">تفاصيل المشروع</label>
+                    <textarea id="message" placeholder="مثال: أرغب في تكسير حمام كامل وإعادة ترميمه..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn"><i class="fas fa-headset"></i> احصل على استشارة مجانية</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-phone-alt"></i> <strong>رقم الفني: 67632110</strong><br>
+            <i class="fab fa-whatsapp"></i> واتساب 24 ساعة: <strong onclick="trackWhatsAppClick('https://wa.me/96567632110')" style="cursor:pointer;">67632110</strong><br>
+            <i class="fas fa-map-marker-alt"></i> نغطي جميع مناطق الكويت: حولي، الفروانية، العاصمة، الجهراء، مبارك الكبير، الأحمدي، السالمية<br>
+            <i class="fas fa-shield-alt"></i> فني معتمد | ضمان الجودة | خدمة فورية | أسعار تنافسية
+        </div>
+    </section>
+
+    <div class="search-tags">
+        <h3>كلمات البحث الأكثر طلباً - فني صحي وترميمات في الكويت</h3>
+        <div class="tags-container">
+            <span class="service-tag">فني صحي</span>
+            <span class="service-tag">ترميمات عامة</span>
+            <span class="service-tag">تكسير حمامات</span>
+            <span class="service-tag">تكسير مطابخ</span>
+            <span class="service-tag">تكسير كور</span>
+            <span class="service-tag">فتح أبواب</span>
+            <span class="service-tag">فتح درايش</span>
+            <span class="service-tag">تكسير سيراميك</span>
+            <span class="service-tag">تكسير أرضيات</span>
+            <span class="service-tag">صحي الكويت</span>
+            <span class="service-tag">أفضل فني صحي</span>
+            <span class="service-tag">فني حولي</span>
+            <span class="service-tag">فني الفروانية</span>
+            <span class="service-tag">فني الجهراء</span>
+            <span class="service-tag">فني الأحمدي</span>
+        </div>
+    </div>
+
+    <div class="floating-btns">
+        <button class="floating-btn" onclick="makePhoneCall('67632110')"><i class="fas fa-phone"></i> اتصل الآن</button>
+        <button class="floating-btn floating-whatsapp" onclick="trackWhatsAppClick('https://wa.me/96567632110')"><i class="fab fa-whatsapp"></i> واتساب</button>
+    </div>
+
+    <div class="simple-footer">
+        <p>🔧 فني صحي - ترميمات عامة - تكسير حمامات ومطابخ - تكسير كور - فتح أبواب ودرايش - تكسير سيراميك وأرضيات</p>
+        <div class="footer-phone" onclick="makePhoneCall('67632110')"><i class="fas fa-phone"></i> 67632110</div>
+        <p>فني معتمد - ضمان الجودة - أسعار مناسبة - تغطية جميع مناطق الكويت</p>
+        <p>جميع الحقوق محفوظة © 2026 | فني صحي وترميمات - رقم 67632110</p>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (typeof gtag_report_conversion === 'function') {
+                gtag_report_conversion();
+            }
+            alert('شكراً لتواصلكم معنا! سيتم الاتصال بكم فوراً لتقديم استشارة مجانية.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
